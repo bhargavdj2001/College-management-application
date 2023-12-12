@@ -1,0 +1,185 @@
+
+* {
+    margin: auto;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.ad1-signup-wrap {
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+.ad1-signup-left {
+    width: 100%;
+    height: 100%;
+    background-color: #345eb9;
+    padding: 0px 40px;
+    position: relative;
+}
+
+.ad1-signup-left img {
+    width: 550px;
+    height: 550px;
+}
+
+#ad1-img-subtext {
+    color: #fff;
+    font-weight: 600;
+    margin: 15px 150px;
+    font-size: 26px;
+}
+
+.ad1-signup-right {
+    height: 100%;
+    width: 90%;
+    margin-left: 20px;
+    position: relative;
+}
+
+input 
+{
+    padding: 8px 12px;
+    width: 30%;
+    font-size: 17px;
+    border: 2px solid rgb(219, 219, 219);
+    background-color: rgb(234, 234, 234);
+    border-radius: 5px;
+}
+
+#ad1-signup-hello-text {
+    position: absolute;
+    top: 8%;
+    left: 41.5%;
+    font-size: 40px;
+}
+
+#ad1-signup-hello-subtext {
+    position: absolute;
+    top: 19.5%;
+    left: 33.5%;
+    font-size: 17px;
+    color: rgb(117, 117, 117);
+}
+
+
+#ad1-l-name {
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    color: rgb(8, 8, 125);
+}
+
+#ad1-l-rno {
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    color: rgb(8, 8, 125);
+}
+
+
+#ad1-l-admno {
+    position: absolute;
+    top: 45%;
+    left: 16%;
+    color: rgb(8, 8, 125);
+}
+
+#ad1-l-email {
+    position: absolute;
+    top: 45%;
+    left: 63%;
+    color: rgb(8, 8, 125);
+}
+
+#ad1-l-phone {
+    position: absolute;
+    top: 60%;
+    left: 16%;
+    color: rgb(8, 8, 125);
+}
+
+#ad1-l-password {
+    position: absolute;
+    top: 60%;
+    left: 63%;
+    color: rgb(8, 8, 125);
+}
+
+
+#ad1-sign-name {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 35%;
+}
+
+#ad1-sign-rno {
+    position: absolute;
+    top: 35%;
+    left: 62%;
+    width: 35%;
+}
+
+#ad1-sign-admno {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 35%;
+}
+
+#ad1-sign-email {
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    width: 35%;
+}
+
+#ad1-sign-phone {
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    width: 35%;
+}
+
+#ad1-sign-password {
+    position: absolute;
+    top: 65%;
+    left: 62%;
+    width: 35%;
+    padding: 12px;
+    border: 2px solid #ccc;
+}
+
+#ad1-signup-sub {
+    position: absolute;
+    top: 78.5%;
+    left: 38.5%;
+    background-color: #285ed3;
+    color: #fff;
+    font-weight: 600;
+    width: 35%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #285ed3;
+}
+
+
+#ad1-login-text {
+    position: absolute;
+    top: 90%;
+    left: 42.8%;
+}
+
+#ad1-login-text a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 2px;
+}

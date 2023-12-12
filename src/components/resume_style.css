@@ -1,0 +1,248 @@
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+#res-b-main-heading {
+    color: blue;
+    font-size: 70px;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+#res-b-form {
+    height: 220vh;
+    background-color: rgb(238, 238, 238);
+    margin: 20px 15%;
+    padding: 20px 5%;
+    position: relative;
+    box-shadow: 12px 12px rgb(143, 143, 143);
+}
+
+
+#res-b-name-l {
+    position: absolute;
+    top: 3.9%;
+    left: 15%;
+    font-weight: 600;
+}
+
+#res-b-name-ip {
+    position: absolute;
+    top: 4%;
+    left: 35%;
+    width: 45%;
+    padding: 6px;
+}
+
+#res-b-title-l {
+    position: absolute;
+    top: 8.5%;
+    left: 15%;
+    font-weight: 600;
+}
+
+#res-b-title-ip {
+    position: absolute;
+    top: 8.8%;
+    left: 35%;
+    padding: 6px;
+    width: 45%;
+}
+
+#res-b-work-l {
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    font-weight: 600;
+}
+
+#res-b-work-ip {
+    position: absolute;
+    top: 13.6%;
+    left: 35%;
+    padding: 6px;
+    width: 45%;
+}
+
+#res-b-edu {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 26px;
+    color: rgb(17, 17, 110);
+}
+
+#res-b-school-l {
+    position: absolute;
+    top: 26.6%;
+    left: 15%;
+    font-weight: 600;
+}
+
+#res-b-school-ip {
+    position: absolute;
+    top: 26.8%;
+    left: 35%;
+    width: 45%;
+    padding: 6px;
+}
+
+#res-b-inter-l {
+    position: absolute;
+    top: 32.4%;
+    left: 15%;
+    font-weight: 600;
+}
+
+#res-b-inter-ip {
+    position: absolute;
+    top: 32.5%;
+    left: 35%;
+    width: 45%;
+    padding: 6px;
+}
+
+#res-b-college-l {
+    position: absolute;
+    top: 38.4%;
+    left: 15%;
+    font-weight: 600;
+}
+
+#res-b-college-ip {
+    position: absolute;
+    top: 38.6%;
+    left: 35%;
+    width: 45%;
+    padding: 6px;
+}
+
+#res-b-ski {
+    position: absolute;
+    top: 46%;
+    left: 15%;
+    font-size: 26px;
+    color: rgb(17, 17, 110);
+}
+
+#res-b-skills-l {
+    position: absolute;
+    top: 54.7%;
+    left: 15%;
+    font-weight: 600;
+}
+
+#res-b-skills-ip {
+    position: absolute;
+    top: 54%;
+    left: 35%;
+    width: 45%;
+    padding: 6px;
+    background-color: rgb(234, 234, 234);
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+#res-b-certification-l {
+    position: absolute;
+    top: 61.7%;
+    left: 15%;
+    font-weight: 600;
+}
+
+#res-b-certification-ip {
+    position: absolute;
+    top: 61%;
+    left: 35%;
+    width: 45%;
+    padding: 6px;
+    background-color: rgb(234, 234, 234);
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+#res-b-projects-l {
+    position: absolute;
+    top: 69.2%;
+    left: 15%;
+    font-weight: 600;
+}
+
+#res-b-projects-ip {
+    position: absolute;
+    top: 68.3%;
+    left: 35%;
+    width: 45%;
+    padding: 6px;
+    background-color: rgb(234, 234, 234);
+    border: 2px solid #ccc;
+    border-radius: 6px;
+}
+
+#res-b-contact {
+    position: absolute;
+    top: 77%;
+    left: 15%;
+    font-size: 26px;
+    color: rgb(17, 17, 110);
+}
+
+#res-b-email-l {
+    position: absolute;
+    top: 82.7%;
+    left: 15%;
+    font-weight: 600;
+}
+
+#res-b-email-ip {
+    position: absolute;
+    top: 83%;
+    left: 35%;
+    width: 45%;
+    padding: 6px;
+}
+
+#res-b-phone-l {
+    position: absolute;
+    top: 88.7%;
+    left: 15%;
+    font-weight: 600;
+}
+
+#res-b-phone-ip {
+    position: absolute;
+    top: 89%;
+    left: 35%;
+    width: 45%;
+    padding: 6px;
+}
+
+#res-b-build-btn {
+    position: absolute;
+    top: 95%;
+    left: 40%;
+    padding: 8px;
+    width: 20%;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #285ed3;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #285ed3;
+}
+
+#res-b-preview {
+    margin: 70px 0px 70px 44.4%;
+    font-weight: 600;
+}
+
+#res-b-preview a{
+    text-decoration: none;
+    width: 20%;
+    padding: 15px;
+    background-color: rgb(43, 54, 156);
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid rgb(43, 54, 156);
+    border-radius: 10px;
+}

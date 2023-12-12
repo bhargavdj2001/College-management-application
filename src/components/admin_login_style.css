@@ -1,0 +1,170 @@
+* {
+    margin: auto;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+
+input 
+{
+    padding: 8px 12px;
+    width: 30%;
+    font-size: 17px;
+    border: 2px solid rgb(219, 219, 219);
+    background-color: rgb(234, 234, 234);
+    border-radius: 5px;
+}
+
+
+
+#ad-login-sub {
+    position: absolute;
+    top: 65%;
+    left: 25.3%;
+    background-color: #285ed3;
+    color: #fff;
+    font-weight: 600;
+    width: 55%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #285ed3;
+}
+
+#ad-login-text {
+    position: absolute;
+    top: 90%;
+    left: 42.8%;
+}
+
+#ad-login-text a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+#ad-login-text-bottom {
+    position: absolute;
+    top: 78%;
+    left: 32%;
+    font-size: 18px;
+}
+
+#ad-login-text-bottom a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+#ad-l-rno-login {
+    position: absolute;
+    top: 32%;
+    left: 27%;
+    font-size: 18px;
+    font-size: 22px;
+}
+
+#ad-l-password-login {
+    position: absolute;
+    top: 47%;
+    left: 27%;
+    font-size: 18px;
+    font-size: 22px;
+}
+
+#ad-rno-ip {
+    position: absolute;
+    top: 37%;
+    left: 25.3%;
+    width: 55%;
+}
+
+#ad-pwd-ip {
+    position: absolute;
+    top: 52%;
+    left: 25.3%;
+    width: 55%;
+    padding: 12px;
+}
+
+#ad-log-btn {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #285eb9;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+
+
+.ad-login-wrap {
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.ad-login-left {
+    width: 100%;
+    height: 100%;
+    background-color: #345eb9;
+    padding: 0px 40px;
+    position: relative;
+}
+
+.ad-login-left img {
+    width: 550px;
+    height: 550px;
+    margin-left: 50px;
+}
+
+#ad-login-img-subtext {
+    color: #fff;
+    font-weight: 600;
+    margin: 2px 15%;
+    font-size: 26px;
+}
+
+.ad-login-right {
+    height: 100%;
+    width: 90%;
+    margin-left: 20px;
+    position: relative;
+}
+
+#ad-login-hello-text {
+    position: absolute;
+    top: 8%;
+    left: 31%;
+    font-size: 45px;
+}
+
+#ad-login-hello-subtext {
+    position: absolute;
+    top: 19.5%;
+    left: 25%;
+    font-size: 17px;
+    color: rgb(117, 117, 117);
+}
+
+#ad-login-rno-error {
+    color: red;
+    font-size: 16px;
+    position: absolute;
+    top: 32.7%;
+    left: 57%;
+}
+
+#ad-login-pwd-error {
+    color: red;
+    font-size: 16px;
+    position: absolute;
+    top: 47.7%;
+    left: 57%;
+}

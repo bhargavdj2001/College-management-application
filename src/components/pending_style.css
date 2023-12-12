@@ -1,0 +1,109 @@
+* {
+    font-family: 'Manrope', sans-serif;
+}
+
+#announcement {
+    text-align: center;
+    font-size: 50px;
+    margin: 30px 0px;
+    color: rgb(19, 19, 132);
+}
+
+#show-btn {
+    background-color: #345eb9;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid #345eb9;
+    margin-left: 63%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#no-pending-stu-h2  {
+    color: rgb(22, 22, 120);
+    margin: 100px 0% 40px 0%;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.item {
+    background: #345eb9;
+    color: #fff;
+    width: 60%;
+    margin: 20px 20%;
+    position: relative;
+    border: 2px solid #345eb9;
+    border-radius: 10px;
+    padding: 5% 20px;
+}
+
+.item-name {
+    position: absolute;
+    top: 40.5%;
+    left: 3%;
+    font-size: 22px;
+}
+
+.item-xgpa {
+    position: absolute;
+    top: 42%;
+    left: 19%;
+    font-size: 22px;
+}
+
+.item-xiigpa {
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    font-size: 22px;
+}
+
+
+
+.item-rank {
+    position: absolute;
+    top: 41%;
+    left: 62%;
+    font-size: 22px;
+}
+
+#yes {
+    position: absolute;
+    top: 40%;
+    right: 12%;
+    width: 8%;
+    padding: 5px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(18, 175, 18);
+    border-radius: 10px;
+    border: 1px solid rgb(18, 184, 18);
+    font-size: 16px;
+}
+
+#no {
+    position: absolute;
+    top: 40%;
+    right: 3%;
+    width: 8%;
+    padding: 5px;
+    color: #fff;
+    background-color: red;
+    border-radius: 10px;
+    border: 1px solid red;
+    font-size: 16px;
+}
+
+#admin-logout-btn {
+    margin: 60px 45%;
+    width: 10%;
+    padding: 12px;
+    color: #fff;
+    background-color: rgb(223, 6, 6);
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid red;
+}

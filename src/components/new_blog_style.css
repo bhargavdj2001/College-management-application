@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+.blog-page-outer-div {
+    margin-top: 0px;
+    background-color: rgb(225, 225, 225);
+}
+
+#blog-page-main-heading {
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 70px;
+    color: blue;
+}
+
+#bpsp-main-h {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(14, 14, 112);
+}
+
+#bpsp-main-sh {
+    text-align: center;
+}
+
+#bpset-form {
+    position: relative;
+    height: 60vh;
+    background-color: #345eb9;
+    margin: 60px 15%;
+    border: 2px solid rgb(31, 31, 209);
+    border-radius: 10px;
+}
+
+#bpset-title-l {
+    position: absolute;
+    top: 17%;
+    left: 13%;
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+}
+
+#bpset-title-ip {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+#bpset-body-l {
+    position: absolute;
+    top: 53%;
+    left: 13%;
+    font-weight: 600;
+    color: #fff;
+    font-size: 22px;
+}
+
+#bpset-body-ip {
+    height: 35%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(219, 219, 219);
+    border-radius: 4px;
+    font-size: 17px;
+    padding: 8px 12px;
+    width: 60%;
+}
+
+#bpset-btn {
+    position: absolute;
+    top: 82%;
+    left: 40%;
+    width: 20%;
+    color: #000;
+    background-color: rgb(19, 192, 21);
+    padding: 14px;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid rgb(13, 169, 15);
+    border-radius: 10px;
+}
+
+#all-posts-heading {
+    color:rgb(14, 14, 112);
+    font-size: 50px;
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.blog-page-get-posts {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0px 10%;
+}
+
+.post-card {
+    border: 2px solid rgb(127, 124, 124);
+    padding: 60px 30px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.post-title {
+    color: rgb(14, 14, 112);
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.post-body {
+    color: rgb(92, 92, 92);
+    margin: 20px 0px;
+}
+
+.post-delete-btn {
+    width: 20%;
+    background-color: rgb(223, 11, 11);
+    border: 2px solid rgb(223, 11, 11);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}

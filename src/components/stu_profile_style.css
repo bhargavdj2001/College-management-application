@@ -1,0 +1,402 @@
+.s-profile-menu
+{
+    font-family: "Manrope", sans-serif;
+    float: left;
+    height: 100vh;
+    width: 10%;
+    background-color: #06283D;
+    color: #fff8f3;
+}
+
+.s-profile-menu li
+{
+    list-style: none;
+    padding: 15%;
+    margin-left: 0px;
+    color: #fff;
+}
+
+
+
+#sp-logout {
+    color: #fff;
+    background-color: #06283D;
+    border: 2px solid #06283D;
+    font-size: 16px;
+}
+
+#s-current
+{
+    background-color: #164e71;
+}
+
+.main
+{
+    float: left;
+    width: 90%;
+}
+
+.d-a
+{
+    float: top;
+    width: 100%;
+}
+
+.details
+{
+    height: 30vh;
+    width: 60%;
+    float: left;
+    margin: 3%;
+    position: relative;
+    color: #12415f;
+    background-color: #fff8f3;
+    border-radius: 1%;
+    box-shadow: 8px 8px #a6a6a6;
+}
+
+.details img 
+{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 4px;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+}
+
+
+#s-name
+{
+    position: absolute;
+    top: 14%;
+    left: 30.5%;
+    font-size: 40px;
+}
+
+#name-icon
+{
+    position: absolute;
+    top: 25.5%;
+    left: 26%;
+}
+
+#s-id
+{
+    position: absolute;
+    top: 50%;
+    left: 30.5%;
+    font-size: 20px;
+}
+
+#sid-icon
+{
+    position: absolute;
+    top: 25%;
+    left: 77.5%;
+}
+
+#s-admno
+{
+    position: absolute;
+    top: 50%;
+    left: 82.25%;
+    font-size: 20px;
+}
+
+#admno-icon
+{
+    position: absolute;
+    top: 52.5%;
+    left: 77.5%;
+}
+
+#s-email
+{
+    position: absolute;
+    top: 76%;
+    left: 30.5%;
+    font-size: 20px;
+}
+
+#email-icon
+{
+    position: absolute;
+    top: 78.5%;
+    left: 26%;
+}
+
+#s-phone
+{
+    position: absolute;
+    top: 76%;
+    left: 82.25%;
+    font-size: 20px;
+}
+
+#phone-icon
+{
+    position: absolute;
+    top: 79.25%;
+    left: 78%;
+}
+
+
+
+.edit
+{
+    position: absolute;
+    top: 4%;
+    right: 2%;
+    font-size: 16px;
+}
+
+.edit a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+.o-a
+{
+    height: 30vh; 
+    width: 30%;
+    float: left;
+    margin: 3% 0% 3% 0%;
+    color: #06283D;
+    background-color: #fff8f3;
+    border-radius: 1%;
+    box-shadow: 8px 8px #a6a6a6;
+    position: relative;
+}
+
+.o-a h2 
+{
+    position: absolute;
+    color: #06283D;
+    top: 20%; 
+    left: 17.5%;
+    font-size: 30px;
+}
+
+.o-a h3
+{
+    position: absolute;
+    color: #12415f;
+    top: 40%; 
+    left: 42%;
+    font-size: 35px;
+}
+
+.o-a-bar
+{
+    height: 24px;
+    width: 50%;
+    background-color: #cacaca;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+.bar-color
+{
+    height: 24px;
+    width: 83%;
+    margin-left: 0px;
+    background-color: green;
+}
+
+.t-e
+{
+    float: top;
+    width: 100%;
+}
+
+.today
+{
+    height: 37.5vh; 
+    width: 30%;
+    float: left;
+    margin: 1.5% 3%;
+    color: #06283D;
+    background-color: #fff8f3;
+    border-radius: 1%;
+    box-shadow: 8px 8px #a6a6a6;
+    position: relative;
+}
+
+.today h1 
+{
+    background-color: #06283D;
+    color: #ededed;
+    font-size: 25px;
+    padding: 7px;
+    font-weight: 500;
+}
+
+.today li
+{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.bar 
+{
+    position: absolute;
+    right: 10%;
+    margin-top: 7px;
+    display: inline-block;
+    height: 10px;
+    width: 80px;
+    background-color: #e1dede;
+}
+
+.os-c
+{
+    height: 10px;
+    width: 80%;
+    margin-left: 0px;
+    background-color: green;
+}
+
+.db-c
+{
+    height: 10px;
+    width: 37%;
+    margin-left: 0px;
+    background-color: red;
+}
+
+.dm-c
+{
+    height: 10px;
+    width: 63%;
+    margin-left: 0px;
+    background-color: orange;
+}
+
+.cd-c
+{
+    height: 10px;
+    width: 76%;
+    margin-left: 0px;
+    background-color: green;
+}
+
+.st-c
+{
+    height: 10px;
+    width: 71%;
+    margin-left: 0px;
+    background-color: orange;
+}
+
+.pending
+{
+    height: 37.5vh; 
+    width: 27%;
+    float: left;
+    margin: 1.5% 3% 1.5% 0%;
+    color: #06283D;
+    background-color: #fff8f3;
+    border-radius: 1%;
+    box-shadow: 8px 8px #a6a6a6;
+    position: relative;
+}
+
+.pending h1 
+{
+    background-color: #06283D;
+    color: #ededed;
+    font-size: 25px;
+    padding: 7px;
+    font-weight: 500;
+}
+
+.pending li
+{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.pending h3
+{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pending b
+{
+    position: absolute;
+    right: 10%;
+    margin-top: -23px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.gpa
+{
+    height: 37.5vh; 
+    width: 30%;
+    float: left;
+    margin: 1.5% 0% 0% 0%;
+    color: #06283D;
+    background-color: #fff8f3;
+    border-radius: 1%;
+    box-shadow: 8px 8px #a6a6a6;
+    position: relative;
+}
+
+.gpa h1 
+{
+    background-color: #06283D;
+    color: #ededed;
+    font-size: 25px;
+    padding: 7px;
+    font-weight: 500;
+}
+
+.gpa h2 
+{
+    padding : 15px 0px 10px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.gpa h3 
+{
+    color: green;
+    font-weight: 750;
+    font-size: 30px;
+    text-align: center;
+}
+
+.i-name {
+    position: absolute;
+    top: 26%;
+    left: 26.5%;
+}
+
+.i-rno {
+    position: absolute;
+    top: 53%;
+    left: 26.5%;
+}
+
+.i-admno {
+    position: absolute;
+    top: 53%;
+    left: 77.9%;
+}
+
+.i-email {
+    position: absolute;
+    top: 80%;
+    left: 26.5%;
+}
+
+.i-phone {
+    position: absolute;
+    top: 80%;
+    left: 77.9%;
+}

@@ -1,0 +1,54 @@
+.ml-main {
+    background-color: rgb(195, 194, 194);
+    height: 85vh;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#ml-stu-login {
+    background-color: rgb(222, 222, 222);
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 75%;
+    box-shadow: 8px 8px rgb(126, 124, 124);
+}
+
+#ml-stu-login img{
+    height: 450px;
+    width: 450px;
+    margin: 0px 10%;
+}
+
+#ml-fac-login {
+    background-color: rgb(222, 222, 222);
+    margin-top: 40px;
+    margin-left: 10%;
+    border-radius: 10px;
+    width: 75%;
+    height: 73vh;
+    box-shadow: 8px 8px rgb(126, 124, 124);
+}
+
+#ml-fac-login img{
+    margin: 0px 10%;
+    height: 450px;
+    width: 450px;
+}
+
+#ml-stu-login a {
+    text-decoration: none;
+}
+
+#ml-stu-line {
+    margin: 20px 30%;
+    color: rgb(30, 30, 159);
+}
+
+#ml-fac-login a {
+    text-decoration: none;
+}
+
+#ml-fac-line {
+    margin: 25px 31%;
+    color: rgb(30, 30, 159);
+}

@@ -1,0 +1,449 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.top
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding : 10px 30px;
+    background-color: #1363DF;
+    height: 8vh;
+    color: #fff8f3;
+    position: relative;
+}
+
+.top a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+    padding-bottom: 2px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px -10px;
+    background-color: rgb(0, 0, 0);
+}
+
+nav li {
+    float: left;
+    padding : 0px 15px;
+}
+
+nav li a {
+    display: inline-block;
+    color: #fff8f3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.back-1
+{
+    height : 86vh;
+    width: 100%;
+    float: right;
+    position: relative;
+}
+
+.back-1 img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(80%);
+}
+
+.back-1 h1 
+{
+    color: #fff8f3;
+    font-size:80px;
+    font-weight: 700;
+    position: absolute;
+    top: 15%;
+    left: 23%;
+    margin-right: 18%;
+}
+
+#main-admission-link
+{
+    position: absolute;
+    top: 76%;
+    left: 35%;
+    color: #fff8f3;
+    border: 2px solid #1363DF;
+    border-radius: 10px;
+    background-color: #1363DF;
+    width: 30%;
+    height: 14%;
+    text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#main-admission-link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#main-admission-link:hover
+{
+    transition: 0.3s ease;
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+    background-color: #13cb38;
+    border: 2px solid #13cb38;
+}
+
+.box-1
+{
+    background-color: black;
+    color: #fff8f3;
+    border-right: 3px solid #fff8f3;
+    height: 25vh;
+    padding: 75px 0px;
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    margin-bottom: 50px;
+}
+
+.box-2
+{
+    background-color: black;
+    color: #fff8f3;
+    border-right: 3px solid #fff8f3;
+    height: 25vh;
+    padding: 75px 0px;
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    margin-bottom: 50px;
+}
+
+.box-3
+{
+    background-color: black;
+    color: #fff8f3;
+    height: 25vh;
+    padding: 75px 0px;
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    margin-bottom: 50px;
+}
+
+.wrap
+{
+    /*background-color: #0c3f5e;*/
+    background: rgb(7,16,79);
+    background: linear-gradient(90deg, rgba(7,16,79,1) 31%, rgba(11,30,116,1) 65%, rgba(17,43,159,1) 95%);
+    color: #fff8f3;
+}
+
+#cam
+{
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.campus-life
+{
+    width: 90%;
+    height: 50%;
+    margin: 3% 5% 0% 5%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.campus-pic {
+    width: 400px;
+    height: 300px;
+}
+
+.campus-facilities {
+    margin : 10px 10px;
+}
+
+.campus-life h3
+{
+    font-size: 30px;
+    padding: 20px 0px;
+}
+
+.campus-life div 
+{
+    padding: 20px;
+    line-height: 2em;
+}
+
+.campus-life p 
+{
+    font-size: 20px;
+}
+
+.adm
+{
+    height: 30vh;
+    background-color: #1363DF;
+    color: #fff8f3;
+    font-family: "Manrope", sans-serif;
+    font-size: 25px;
+    padding : 3% 0px;
+    text-align: center;
+    position: relative;
+}
+
+.adm #ab 
+{
+    background-color:#06283D;
+    color: #fff8f3;
+    padding: 5px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    border: 2px solid #06283D;
+    border-radius: 10px;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    right: 40%;
+}
+
+#ab a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.wrap-2
+{
+    /*background-color: #0c3f5e;*/
+    background: rgb(7,16,79);
+    background: linear-gradient(90deg, rgba(7,16,79,1) 31%, rgba(11,30,116,1) 65%, rgba(17,43,159,1) 95%);
+    color: #fff8f3;
+    height: 160vh;
+}
+
+.courses
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    width: 90%;
+    margin: 10% 5% 5% 5%;
+}
+
+.wrap-2 h1 
+{
+    font-size: 80px;
+    text-align: center;
+    padding: 2.5% 0% 0% 0%;
+    font-family: "Manrope", sans-serif;
+}
+
+.wrap-2 p
+{
+    width: 60%;
+    margin: 2% 20% -6% 20%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.wrap-2 #a1
+{
+    text-decoration: none;
+    background-color: #1363DF;
+    border: 2px solid #1363DF;
+    color: #fff8f3;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: -5% 0% 5% 40%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.c
+{
+    margin: 2.5%;
+    position: relative;
+}
+
+.c img
+{
+    height: 100%;
+    width: 100%;
+    filter: brightness(40%);
+    border-radius: 3%;
+}
+
+.c img:hover
+{
+    transition: 0.3s ease-in-out;
+    -ms-transform: scale(1.05); 
+    -webkit-transform: scale(1.05); 
+    transform: scale(1.05);
+}
+
+.c h3 
+{
+    position: absolute;
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    top: 80%;
+    left: 10%;
+}
+
+.news
+{
+    height: 30vh;
+    background-color: #1363DF;
+    color: #fff8f3;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    padding : 3% 0px;
+    text-align: center;
+    position: relative;
+}
+
+.news button
+{
+    background-color:#06283D;
+    color: #fff8f3;
+    padding: 7.5px 40px;
+    text-decoration: none;
+    border: 2px solid #06283D;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    right: 40%;
+}
+
+.news a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.alumni
+{
+    height: 175vh;
+    /*background-color: #0c3f5e;*/
+    background: rgb(14,26,111);
+background: linear-gradient(90deg, rgba(14,26,111,1) 14%, rgba(17,38,142,1) 64%, rgba(3,91,204,1) 100%);
+    color: #fff8f3;
+}
+
+.alumni h2
+{
+    padding: 40px 0px;
+    font-family: "Manrope", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.alum-wrap
+{
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.al
+{
+    line-height: 2em;
+    font-size: 18px;
+    background-color: #1051b3;
+    margin: 15px;
+    border-radius: 4%;
+    position: relative;
+    height: 65vh;
+}
+
+.al h4
+{
+    padding: 0px 27px;
+}
+
+.al h3 
+{
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    padding: 10px 25px 5px 25px;
+}
+
+.al img 
+{
+    width: 80%;
+    height: 40%;
+    border-radius: 4%;
+    margin: 8% 10% 2% 10%;
+    filter: brightness(80%);
+}
+
+.end
+{
+    background-color: black;
+    color: #fff8f3;
+    height: 40vh;
+}
+
+.g
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    width: 80%;
+    margin: 0% 10%;
+    padding: 5% 0%;
+}
+
+.g1
+{
+    margin: 0% 10%; 
+    text-align: center;
+}
+
+.g1 ul
+{
+    list-style: none;
+}
+
+.g1 h3
+{
+    color: grey;
+    padding: 15px;
+}
+
+#footer
+{
+    background-color: black;
+    color: #fff8f3;
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+
+
+

@@ -1,0 +1,327 @@
+
+
+* {
+    margin: auto;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.signup-wrap {
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+.signup-left {
+    width: 100%;
+    height: 100%;
+    background-color: #345eb9;
+    padding: 0px 40px;
+    position: relative;
+}
+
+.signup-left img {
+    width: 550px;
+    height: 550px;
+}
+
+#img-subtext {
+    color: #fff;
+    font-weight: 600;
+    margin: 15px 150px;
+    font-size: 26px;
+}
+
+#img-subtext2 {
+    color: #fff;
+    font-weight: 600;
+    margin: 2px 125px;
+    font-size: 26px;
+}
+
+.signup-right {
+    height: 100%;
+    width: 90%;
+    margin-left: 20px;
+    position: relative;
+}
+
+input 
+{
+    padding: 8px 12px;
+    width: 30%;
+    font-size: 17px;
+    border: 2px solid rgb(219, 219, 219);
+    background-color: rgb(234, 234, 234);
+    border-radius: 5px;
+}
+
+#signup-hello-text {
+    position: absolute;
+    top: 8%;
+    left: 41.5%;
+    font-size: 40px;
+}
+
+#signup-hello-subtext {
+    position: absolute;
+    top: 19.5%;
+    left: 33.5%;
+    font-size: 17px;
+    color: rgb(117, 117, 117);
+}
+
+
+#l-name {
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    color: rgb(8, 8, 125);
+}
+
+#l-rno {
+    position: absolute;
+    top: 30%;
+    left: 63%;
+    color: rgb(8, 8, 125);
+}
+
+#l-rno-login {
+    position: absolute;
+    top: 32%;
+    left: 27%;
+    color: rgb(8, 8, 125);
+}
+
+#l-admno {
+    position: absolute;
+    top: 45%;
+    left: 16%;
+    color: rgb(8, 8, 125);
+}
+
+#l-email {
+    position: absolute;
+    top: 45%;
+    left: 63%;
+    color: rgb(8, 8, 125);
+}
+
+#l-phone {
+    position: absolute;
+    top: 60%;
+    left: 16%;
+    color: rgb(8, 8, 125);
+}
+
+#l-password {
+    position: absolute;
+    top: 60%;
+    left: 63%;
+    color: rgb(8, 8, 125);
+}
+
+#l-password-login {
+    position: absolute;
+    top: 47%;
+    left: 27%;
+    color: rgb(8, 8, 125);
+}
+
+
+#sign-name {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 35%;
+}
+
+#sign-rno {
+    position: absolute;
+    top: 35%;
+    left: 62%;
+    width: 35%;
+}
+
+#sign-admno {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 35%;
+}
+
+#sign-email {
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    width: 35%;
+}
+
+#sign-phone {
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    width: 35%;
+}
+
+#sign-password {
+    position: absolute;
+    top: 65%;
+    left: 62%;
+    width: 35%;
+    padding: 13px;
+    border: 1px solid rgb(190, 190, 190);
+}
+
+#signup-sub {
+    position: absolute;
+    top: 78.5%;
+    left: 38.5%;
+    background-color: #285ed3;
+    color: #fff;
+    font-weight: 600;
+    width: 35%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #285ed3;
+}
+
+#login-sub {
+    position: absolute;
+    top: 65%;
+    left: 25.3%;
+    background-color: #285ed3;
+    color: #fff;
+    font-weight: 600;
+    width: 55%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #285ed3;
+}
+
+#login-text {
+    position: absolute;
+    top: 90%;
+    left: 42.8%;
+}
+
+#login-text a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+#login-text-bottom {
+    position: absolute;
+    top: 78%;
+    left: 32%;
+    font-size: 18px;
+}
+
+#login-text-bottom a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+#rno-ip {
+    position: absolute;
+    top: 37%;
+    left: 25.3%;
+    width: 55%;
+}
+
+#pwd-ip {
+    position: absolute;
+    top: 52%;
+    left: 25.3%;
+    width: 55%;
+    padding: 12px;
+}
+
+#log-btn {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: blue;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+
+
+.login-wrap {
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.login-left {
+    width: 100%;
+    height: 100%;
+    background-color: #345eb9;
+    padding: 0px 40px;
+    position: relative;
+}
+
+.login-left img {
+    width: 550px;
+    height: 550px;
+    margin-left: 50px;
+}
+
+#login-img-subtext {
+    color: #fff;
+    font-weight: 600;
+    margin: 2px 15%;
+    font-size: 26px;
+}
+
+.login-right {
+    height: 100%;
+    width: 90%;
+    margin-left: 20px;
+    position: relative;
+}
+
+#login-hello-text {
+    position: absolute;
+    top: 8%;
+    left: 31%;
+    font-size: 45px;
+}
+
+#login-hello-subtext {
+    position: absolute;
+    top: 19.5%;
+    left: 25%;
+    font-size: 17px;
+    color: rgb(117, 117, 117);
+}
+
+#login-rno-error {
+    color: red;
+    font-size: 16px;
+    position: absolute;
+    top: 32.7%;
+    left: 57%;
+}
+
+#login-pwd-error {
+    color: red;
+    font-size: 16px;
+    position: absolute;
+    top: 47.7%;
+    left: 57%;
+}
